@@ -1,0 +1,18 @@
+galaxy_info:
+  standalone: true
+  author: Aleksander Filippov
+  description: This role install vector on EL
+  company: netology
+  role_name: linux_administration
+  namespace: glennbell
+  license: MIT
+  min_ansible_version: "2.10"
+  platforms:
+    - name: "EL"
+      versions:
+        - 'all'
+    - name: "Debian"
+      versions:
+        - 'all'
+  galaxy_tags: []
+dependencies: []
